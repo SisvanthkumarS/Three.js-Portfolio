@@ -1,0 +1,63 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background: rgb(13, 13, 13);
+    overflow: hidden;
+}
+
+.hero-content {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    text-align: center;
+    pointer-events: none;
+}
+
+.hero-title {
+    font-size: 20rem;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: rgb(231, 219, 207);
+    transform-origin: center;
+    will-change: transform;
+    letter-spacing: -0.01em;
+}
+
+.hero-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+
+    .line {
+        width: 80px;
+        height: 1px;
+        background: #c46b1f; // warm accent
+        opacity: 0.8;
+    }
+
+    .tag-line {
+        font-family: "Inter", sans-serif;
+        letter-spacing: 8px;
+        color: rgb(174, 160, 149);
+        opacity: 0.5;
+    }
+}
+
+.scroll-down-indicator {
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: #545454;
+    bottom: 50px;
+    img {
+        width: 80px;
+        height: 100px;
+    }
+}

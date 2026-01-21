@@ -1,20 +1,33 @@
 .navbar {
-    background: rgb(11, 17, 23);
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
     width: 100%;
-   font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
+    z-index: 1000;
+
     .navbar-wrapper {
-        width: 90%;
+        border-radius: 50px;
+        color: #ffffff;
+        border: 2px solid rgb(37, 37, 37);
+        width: 50%;
         margin: 0 auto;
         padding: 1rem 2rem;
         display: flex;
         align-items: center;
-        gap: 7rem;
-        a{
-            img{
+        gap: 5rem;
+        justify-content: center;
+        box-shadow: 0 0 20px rgba(255,255,255,0.08);
+
+
+        a {
+            img {
                 width: 30px;
                 height: 30px;
             }
         }
+
         ul {
             list-style: none;
             display: flex;
@@ -22,7 +35,7 @@
 
             li {
                 a {
-                    color: antiquewhite;
+                    color: #ffffff;
                     text-decoration: none;
                 }
             }

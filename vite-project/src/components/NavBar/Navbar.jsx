@@ -18,7 +18,7 @@ const Navbar = () => {
         });
 
         navTween.fromTo(
-            "nav",
+            ".navbar-wrapper",
             { backgroundColor: "transparent" },
             {
                 backgroundColor: "#00000050",
@@ -32,7 +32,7 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className='navbar-wrapper'>
                 <a href="#home">
-                    <img src="./public/assets/icons8-home.svg" alt="home-icon" />
+                    <img src="./assets/images/icons8-home.svg" alt="home-icon" />
                 </a>
                 <ul>
                     {navLinks.map((link) => (
