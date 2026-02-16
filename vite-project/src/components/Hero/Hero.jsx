@@ -48,7 +48,7 @@ const Hero = () => {
             <span className="line" />
           </div>
           <div className="scroll-down-indicator">
-            <img src="/assets/images/scroll-down.png" alt="scroll" />
+            <img src="/assets/images/common/scroll-down.png" alt="scroll" />
             <p>Scroll down to explore</p>
           </div>
         </div>

@@ -56,10 +56,6 @@ const WhoAmI = () => {
   }, { scope: sectionRef });
 
 
-
-
-
-
   return (
     <section className="whoami-section" >
       <h1 className="sub-heading">01. About Me</h1>
@@ -69,16 +65,13 @@ const WhoAmI = () => {
             I’m Sisvanth Kumar Sathivadivel, a full-stack software engineer focused on building reliable, scalable products. I design clean backend architecture, craft secure APIs and microservices, and ship fast, responsive interfaces—turning complex ideas into polished experiences that perform in the real world.
           </p>
           <img
-            src="/assets/images/caricature.png"
+            src="/assets/images/common/caricature.png"
             alt="whoami"
             className="whoami-image"
           />
         </div>
       </div>
     </section>
-
-
-
   );
 };
 

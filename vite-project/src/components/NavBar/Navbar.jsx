@@ -32,7 +32,7 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className='navbar-wrapper'>
                 <a href="#home">
-                    <img src="./assets/images/icons8-home.svg" alt="home-icon" />
+                    <img src="./assets/images/common/icons8-home.svg" alt="home-icon" />
                 </a>
                 <ul>
                     {navLinks.map((link) => (

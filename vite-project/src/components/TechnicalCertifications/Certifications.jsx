@@ -140,7 +140,7 @@ const Certifications = () => {
     return (
         <section className="section pin-section" ref={sectionRef}>
             <div className="certification-header">
-                <p className="sub-heading">03. CERTIFICATIONS</p>
+                <p className="sub-heading">04. CERTIFICATIONS</p>
                 <h2>CERTIFICATIONS AND HONORS</h2>
                 <p className="certification-description">
                     Skill milestones that back up the work—verified knowledge in development, architecture, and deployment best practices.
@@ -157,13 +157,13 @@ const Certifications = () => {
 
                 <div className="right">
                     <div className="slide center">
-                        <img src="/assets/images/AWS_Certification.jpg" alt="" />
+                        <img src="/assets/images/certificates/aws-developer-associate.jpg" alt="" />
                     </div>
                     <div className="slide center">
-                        <img src="/assets/images/UIBC.png" alt="" />
+                        <img src="/assets/images/certificates/UIBC.jpg" alt="" />
                     </div>
                     <div className="slide center">
-                        <img src="/assets/images/sailpointAmbassador.png" alt="" />
+                        <img src="/assets/images/certificates/sailpoint-ambassador.png" alt="" />
                     </div>
                 </div>
             </div>

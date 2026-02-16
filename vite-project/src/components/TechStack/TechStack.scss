@@ -207,3 +207,19 @@
   background: #fff;
   transform: translate(-50%, -50%);
 }
+
+.hs-tech-icon {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  display: block;
+  margin: 50px auto 14px;
+  // filter: grayscale(100%) brightness(1.2);
+  transition: transform 0.25s ease, filter 0.25s ease, opacity 0.25s ease;
+}
+
+.hs-card:hover .hs-tech-icon {
+  transform: scale(1.08);
+  // filter: grayscale(0%) brightness(1);
+  opacity: 1;
+}
