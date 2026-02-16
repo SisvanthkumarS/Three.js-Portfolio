@@ -42,7 +42,7 @@ const DirectionalMarquee = () => {
   );
 
   return (
-    <section>
+    <section className="directional-marquee-container">
       <div>
         <p className="intro-text">I'm mostly the following</p>
       </div>

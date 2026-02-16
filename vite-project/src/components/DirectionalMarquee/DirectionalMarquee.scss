@@ -1,11 +1,14 @@
-
+.directional-marquee-container{
+  margin-top: 70px;
+  height: 45vh;
+}
 .scrolling-text {
   // background: #000;
   overflow: hidden;
   width: 100%;
-  height: 50vh;
   display: flex;
   align-items: center;
+  margin: 40px 0;
   // background-color: var(--color-just-black);
 }
 .scrolling-text .rail {
@@ -25,7 +28,7 @@
 .intro-text {
   font-size: 3.2rem;
   font-family: "Inter", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   text-align: right;
   padding-right: 50px;
   color: white;

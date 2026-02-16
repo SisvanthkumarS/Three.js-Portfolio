@@ -5,12 +5,12 @@ import { ScrollTrigger, SplitText, ScrollSmoother } from "gsap/all";
 import Cursor from "./ui/cursor/Cursor";
 import Navbar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
 import WhoAmI from "./components/WhoAmI/WhoAmI";
 import DirectionalMarquee from "./components/DirectionalMarquee/DirectionalMarquee";
 import Experience from "./components/Experience/Experience";
 import Warp from "./components/Warp/Warp";
 import Certifications from "./components/TechnicalCertifications/Certifications";
+import TechStack from "./components/TechStack/TechStack";
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrollSmoother);
 
@@ -37,6 +37,7 @@ const App = () => {
           <WhoAmI/>
           <DirectionalMarquee />
           <Experience />
+          <TechStack/>
           <Certifications />
         </div>
       </div>

@@ -140,9 +140,11 @@ const Certifications = () => {
     return (
         <section className="section pin-section" ref={sectionRef}>
             <div className="certification-header">
-                <span className="line" />
+                <p className="sub-heading">03. CERTIFICATIONS</p>
                 <h2>CERTIFICATIONS AND HONORS</h2>
-                <span className="line" />
+                <p className="certification-description">
+                    Skill milestones that back up the work—verified knowledge in development, architecture, and deployment best practices.
+                </p>
             </div>
             <div className="content">
                 <ul className="certification-list">

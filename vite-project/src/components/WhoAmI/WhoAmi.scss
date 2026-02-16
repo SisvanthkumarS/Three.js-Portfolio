@@ -1,36 +1,53 @@
-.contact {
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+.whoami-section {
   // background: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12vh 8vw;
   color: white;
 }
 
+.sub-heading {
+  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  letter-spacing: 0.35em;
+  font-size: 0.75rem;
+  color: var(--hs-accent, #c46b1f);
+  font-weight: 400;
+}
+
+.whoami-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
 .split {
-  font-size: 3.2rem;
-  line-height: 5rem;
-  text-align: center;
-  margin: 0 auto;
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+  text-align: left;
+  // margin: 0 auto;
   font-family: "Inter", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
+  width: 60%
 }
 
-.line {
-  overflow: hidden; // mask for reveal
-  text-align: center;
+.whoami-inner {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 30%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 10px;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.whoami-word {
+  display: inline-block;
+  will-change: transform, opacity;
+}
