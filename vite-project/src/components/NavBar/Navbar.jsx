@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { navLinks } from "../../constants/navbarConstants";
-import "./Navbar.scss";
+import "./NavBar.scss";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
