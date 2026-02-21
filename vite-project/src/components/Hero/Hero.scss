@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  pointer-events: none;
+  // pointer-events: none;
 }
 
 .hero-zoom {
@@ -90,10 +90,12 @@
   opacity: 0.75;
 }
 
+
 @media (max-height: 650px) {
   .hero-sub {
     margin-top: 0.75rem;
   }
+
   .scroll-down-indicator {
     margin-top: 1rem;
     transform: scale(0.9);

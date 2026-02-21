@@ -33,7 +33,7 @@ const App = () => {
       <Warp />
       <Cursor />
       <div id="smooth-wrapper">
-          {/* <Navbar /> */}
+          <Navbar />
         <div id="smooth-content">
           <Hero />
           <WhoAmI/>

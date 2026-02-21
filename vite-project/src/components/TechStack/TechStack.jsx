@@ -370,7 +370,7 @@ export default function TechStack() {
 
             <div className="hs-header">
                 <p className="hs-kicker">03. TECH STACK</p>
-                <h2 className="hs-title">TOOLS I BUILD WITH</h2>
+                <h2 className="hs-title">TECHNICAL EXPERTISE</h2>
                 <p className="hs-desc">A curated set of technologies I use to ship fast, scalable products—clean UI, solid backend, reliable cloud,
                     and automation.</p>
             </div>

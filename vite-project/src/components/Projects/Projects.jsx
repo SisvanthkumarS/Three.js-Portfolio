@@ -3,7 +3,7 @@ import "./Projects.scss";
 
 const PROJECTS = [
   {
-  title: "GSAP Portfolio — React + ScrollTrigger",
+  title: "GSAP Portfolio — React + GSAP",
   desc: "Designed and built a high-performance animated portfolio using React and GSAP. Implemented ScrollTrigger-based section pinning, scrubbed timelines, parallax/zoom effects, and smooth anchor navigation. Built reusable motion patterns, responsive layouts, and optimized rendering with will-change, transform-based animations, and cleanup-safe GSAP hooks for consistent behavior across refresh/resize.",
   image: "/assets/images/common/portfolio-image.png",
   tags: ["React", "GSAP", "ScrollTrigger", "SCSS", "Vite"],
