@@ -6,7 +6,6 @@ import Cursor from "./ui/cursor/Cursor";
 import Navbar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
 import WhoAmI from "./components/WhoAmI/WhoAmI";
-import DirectionalMarquee from "./components/DirectionalMarquee/DirectionalMarquee";
 import Experience from "./components/Experience/Experience";
 import Warp from "./components/Warp/Warp";
 import Certifications from "./components/TechnicalCertifications/Certifications";
